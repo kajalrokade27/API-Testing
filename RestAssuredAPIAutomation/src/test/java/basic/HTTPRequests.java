@@ -1,4 +1,4 @@
-package basic1;
+package basic;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
@@ -95,3 +95,5 @@ public class HTTPRequests
     }
     
 }
+
+
