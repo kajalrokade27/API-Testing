@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basic.CreatePostRequestBody">
+      <class name="parsingResponseBody.ParsingXMLRes">
         <methods>
-          <include name="testPostUsingOrgJson"/>
+          <include name="textXMLResponse"/>
         </methods>
-      </class> <!-- basic.CreatePostRequestBody -->
+      </class> <!-- parsingResponseBody.ParsingXMLRes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

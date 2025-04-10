@@ -11,9 +11,9 @@ public class PathAndQueryParameters
   void testQueryAndPathParameters()
   {
 	  given()
-	         .pathParam("mypath", "users")
-	         .queryParam("page",2)
-	         .queryParam("id", 5)
+	         .pathParam("mypath", "users")  //path parameters(act like a variable)
+	         .queryParam("page",2)          //query parameters
+	         .queryParam("id", 5)           //query parameters
 	         
 	   .when()
 	         .get("https://reqres.in/api/{mypath}")
@@ -21,6 +21,7 @@ public class PathAndQueryParameters
 	   .then()
 	         .statusCode(200)
 	          .log().all();
+	          
 	  
   }
 }
