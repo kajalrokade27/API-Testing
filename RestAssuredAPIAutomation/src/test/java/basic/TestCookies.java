@@ -20,7 +20,8 @@ public class TestCookies {
 				.get("https://www.google.com/")
 
 				.then()
-				.cookie("AEC", "AVcja2eQjj99yRCM8syS1DLBvoMFAOYZ_2IL_fDNJnTBWkYQ1n_bEGsasQ").log().all();
+				.cookie("AEC", "AVcja2eQjj99yRCM8syS1DLBvoMFAOYZ_2IL_fDNJnTBWkYQ1n_bEGsasQ")
+				.log().all();
 
 	}
 

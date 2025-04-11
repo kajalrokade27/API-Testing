@@ -36,6 +36,7 @@ public class TestHeaders
 				
 				     .when()
 				     .get("https://www.google.com/");
+		
 		//Get single header info
 		String headerValue = res.getHeader("Content_Type");
 		System.out.println("The value of Content-Type is " + headerValue);
