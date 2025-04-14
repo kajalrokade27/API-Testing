@@ -17,6 +17,9 @@ public class ParsingJsonResBody
     {
     	Response res = given()
     			       .contentType("Content-Type.JSON")
+    			       
+    			       
+    			       
     			       .when()
     			       .get("https://reqres.in/api/users?page=2");
     	
