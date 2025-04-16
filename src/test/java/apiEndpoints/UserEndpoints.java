@@ -36,8 +36,9 @@ public class UserEndpoints
 	                .accept(ContentType.JSON)
 	                .body(payload)
 	                .when()
-	                .post(Routes.post_url); // ⚠ This should likely be Routes.update_url
+	                .post(Routes.post_url); // This should likely be Routes.update_url
 
 	        return response;
 	    }
+	    
 }
