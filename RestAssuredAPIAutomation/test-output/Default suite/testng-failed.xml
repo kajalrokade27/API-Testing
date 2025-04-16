@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jsonSchemaValidation.JsonSchemaValidation">
+      <class name="apiChaining.DeleteUser">
         <methods>
-          <include name="jsonschemavalidation"/>
+          <include name="test_deleteUser" invocation-numbers="0"/>
         </methods>
-      </class> <!-- jsonSchemaValidation.JsonSchemaValidation -->
+      </class> <!-- apiChaining.DeleteUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
